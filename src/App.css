@@ -1,32 +1,32 @@
 .container {
-    font-family:cursive;
-    background-color: #42cef9;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: cursive;
+  background-color: #42cef9;
+  text-align: center;
+  /* margin: 0; */
+  /* padding: 0; */
+}
 
-  .game-title {
-    color: #5bf64d;
-  }
+.game-title {
+  color: #5bf64d;
+}
 
-  .clicker-button {
-    background-color: #4caf50;
-    color: rgb(30, 253, 82);
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .clicker-button:hover {
-    background-color: #45a049;
-  }
+.clicker-button {
+  background-color: #4caf50;
+  color: rgb(30, 253, 82);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.clicker-button:hover {
+  background-color: #45a049;
+}
 
 .popup {
   display: none;
@@ -42,5 +42,5 @@
   font-family: cursive;
 }
 .popup.show {
-    display: block;
-  }
+  display: block;
+}

@@ -16,7 +16,6 @@
 
 // export default App;
 
-
 // import React, { useState } from 'react';
 // import Clicker from './Clicker';
 // import './styles.css';
@@ -37,8 +36,6 @@
 //     </div>
 //   );
 // }
-
-
 
 // function App() {
 //   const [score, setScore] = useState(0);
@@ -97,9 +94,12 @@
 
 // export default App;
 
-import React, { useState } from 'react';
-import Clicker from './Clicker';
-import './styles.css';
+import React, { useState } from "react";
+import Clicker from "./Clicker";
+import Button from "react-bootstrap/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import "./styles.css";
 
 function App() {
   const [score, setScore] = useState(0);
@@ -122,7 +122,8 @@ function App() {
       <h1 className="game-title">Clicker Game</h1>
       <p>Score: {score}</p>
       <Clicker onClick={handleButtonClick} />
-      <div className={`popup ${showPopup ? 'show' : ''}`}>
+      <Button variant="primary">Primary</Button>{" "}
+      <div className={`popup ${showPopup ? "show" : ""}`}>
         <p>Congratulations! You've reached {score} points!</p>
       </div>
     </div>
@@ -130,5 +131,3 @@ function App() {
 }
 
 export default App;
-
-
