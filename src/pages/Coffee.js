@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const Coffees = () => {
-//   return (
-//     <div>Coffees</div>
-//   )
-// }
+const Coffees = () => {
+  return (
+    <div>Coffees</div>
+  )
+}
 
-// export default Coffees;
+export default Coffees;
